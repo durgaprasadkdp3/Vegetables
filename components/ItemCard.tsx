@@ -126,8 +126,10 @@ export default function ItemCard({
               Delete Item?
             </h3>
             <p className="text-base text-gray-700 dark:text-gray-300 mb-4">
-              Are you sure you want to delete {'"'}{item.name}{'"'}? This action cannot be undone.
-            </p>
+           Are you sure you want to delete &quot;{item.name}&quot;? This action cannot be undone.
+          </p>
+
+
 
             <div className="flex gap-3">
               <button
